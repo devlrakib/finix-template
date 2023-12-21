@@ -295,7 +295,7 @@ i.fa-solid.fa-percent {
 }
 
 
-/* Apply Now CSS Code Starts here */
+/* !Apply Now CSS Code Starts here */
 
 .apply-now{
     padding: 10px 30px;
@@ -354,5 +354,57 @@ i.fa-solid.fa-percent {
 .step-timeline ul li p{
    color: #606060;
 }
+
+.The-loan{
+    padding: 10px 200px;
+}
+
+.calculate-rate{
+    background-color: #fdebeb;
+    
+}
+.calculate-rate .finix-text{
+
+}
+.calculate-rate .finix-text h6{
+   color: #606060;
+}
+
+.calculate-rate .finix-text h2{
+    font-size: 25px;
+}
+
+.calculate-form .form-check-label{
+    font-size: 15px;
+}
+
+.mone-input{
+    width: 80%;
+}
+
+/* .money-label{
+    margin-left: 15px;
+} */
+
+.The-loan{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.The-loan:hover{
+   background-color: #000;
+   color: white;
+}
+
+.form-check-label{
+    width: 80%;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+.form-check-label option{
+    padding: 50px;
+}
+/* !Apply Now Code Ends Here */
 
 
