@@ -408,3 +408,105 @@ i.fa-solid.fa-percent {
 /* !Apply Now Code Ends Here */
 
 
+/* Call to action */
+
+.call-to-action-bg{
+    background-color: #e73a3e;
+    padding: 60px;
+    color: #fff;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.call-to-action-bg h2{
+    font-size: 30px;
+    font-weight: 400;
+    border-right: 1px solid #ddd ;
+}
+
+.call-to-action-bg  span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.call-to-action-bg  a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    margin-left: 20px;
+}
+
+/* ! Our Comapny Values */
+
+
+.company-value-text{
+    
+}
+.values-item .fa-lightbulb{
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.values-item{
+    margin-bottom: 20px;
+}
+
+.value-text h3{
+    font-size: 25px;
+}
+.value-text p{
+   color: #606060;
+   font-size: 18px;
+}
+
+.our-company-img img{
+    text-align: right;
+    margin-left: 35px;
+}
+
+.service-icon i{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    
+}
+
+.service-tab{
+    border-top: 2px solid gray;
+    
+}
+
+.service-home h2{
+    color: #e73a3e;
+    font-size: 20px;
+}
+.service-home-text h2{
+    color: #e73a3e;
+    font-size: 20px;
+}
+.education-loan h2{
+    color: #e73a3e;
+    font-size: 20px;
+}
+
+.service-home-text ul{
+    color: red;
+}
+.service-home p{
+    color: #606060;
+    font-size: 15px;
+}
+.education-loan p{
+    color: #606060;
+    font-size: 15px;
+}
