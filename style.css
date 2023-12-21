@@ -175,6 +175,61 @@ img{
    background-color: #f9fafb;  
 } 
 
+/* !Animation Video Buttton Create CSS Starts Here */
+
+
+.animation-btn{
+    text-decoration: none;
+    position: relative;
+}
+.animation-btn i{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 60px;
+    color: red;
+    background-color: white; 
+    border-radius: 50%;
+    position: absolute; 
+    right: 50%;
+    bottom: -145px;
+}
+.animation-btn::before {
+    content: "";
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 81px;
+    left: -90px;
+    right: 138px;
+    background-color: #e73a3e;
+    border-radius: 50%;
+    animation: animation-btn 1.6s ease-out infinite;
+        
+    }
+
+@keyframes animation-btn{
+    0%, 30%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .8;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+
+
+/* !Animation Video Button Create CSS Ends Here */
+
 .feature-item{
     background-color: white;
     padding: 30px;
@@ -237,6 +292,67 @@ i.fa-solid.fa-percent {
 
 .last-feature{
     margin-top: -30px;
+}
+
+
+/* Apply Now CSS Code Starts here */
+
+.apply-now{
+    padding: 10px 30px;
+}
+
+.apply-now:hover{
+    background-color: #000;
+    color: white;
+}
+
+.apply-now-section{
+
+}
+
+.apply-now-text{
+
+}
+
+.step-timeline{
+    
+}
+.step-timeline ul{
+    list-style-type: none;
+}
+.step-timeline ul li::before{
+    content: "";
+    position: absolute;
+    top: ;
+    left:;
+    width: 1px;
+    height: 100%;
+    background-color: #e73a3e;
+}
+.step-timeline ul li{
+   margin-bottom: 25px;
+   position: relative;
+}
+.step-timeline ul li::before{
+    content: attr(data-counter);
+    left: -60px;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.step-timeline ul li strong{
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+.step-timeline ul li p{
+   color: #606060;
 }
 
 
