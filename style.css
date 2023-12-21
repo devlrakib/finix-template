@@ -335,14 +335,14 @@ i.fa-solid.fa-percent {
 }
 .step-timeline ul li::before{
     content: attr(data-counter);
-    left: -60px;
+    left: -50px;
     top: 0;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     background-color: red;
     color: white;
     border-radius: 50%;
-    line-height: 50px;
+    line-height: 30px;
     text-align: center;
 }
 
